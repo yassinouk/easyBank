@@ -2,10 +2,6 @@ package util
 
 import "math/rand"
 
-func init() {
-
-}
-
 /// randomInt generates a random integer between min and max
 func randomInt(min, max int64) int64 {
 	return min + rand.Int63n(max-min+1)
